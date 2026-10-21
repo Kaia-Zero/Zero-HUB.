@@ -1,4 +1,4 @@
-local encodedUrl = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0thaWEtWmVyby9aZXJvLUhVQi4vcmVmcy9oZWFkcy9tYWluL1plcm9fSFVCX29iZiAoMSkubHVh"
+local encodedUrl = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0thaWEtWmVyby9aZXJvLUhVQi4vcmVmcy9oZWFkcy9tYWluL1plcm8tSFVCLW9iZi5sdWE="
 
 local HttpService = game:GetService("HttpService")
 local success, realUrl = pcall(function()
