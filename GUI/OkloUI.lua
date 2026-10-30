@@ -1,3 +1,4 @@
+-- ปิดแท็บ
 local modules = {}
 local loaded = {}
 local function import(name)
@@ -5604,9 +5605,9 @@ local function config(window: Window)
 end
 
 function Pages.install(window: Window)
-    customization(window)
-    keybinds(window)
-    config(window)
+    -- customization(window)
+    -- keybinds(window)
+    -- config(window)
 end
 
 return Pages
